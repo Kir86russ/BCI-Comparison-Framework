@@ -73,6 +73,12 @@ hyper-parameters which are given in file 'yourDatasetName_spec'. the function Ma
 
 Class 'BCI_Framework/Configuration_BCI' reads the 'yourDatasetName_spec' file.
 
+To add a new classification algorithm you should extend the "NONRF_Learner" in Learner.py.
 
+To add a new feature extraction algorithm you should add the function in Feature_Extractor.py.
+
+____________________________________________________________________________________________________________
+
+If you have any questions about this software please feel free to contact 'hosseinbs@ece.ubc.ca'
 
 
