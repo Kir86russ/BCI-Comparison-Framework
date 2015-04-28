@@ -56,7 +56,9 @@ The scripts to replicate the results of the framework paper is in folder 'Batch_
 Run on other datasets
 _____________________
 
-To run the algorithms on other datasets, copy your data to the folder 'bci_data'. Use the same format as the names already in the folder.
+To run the algorithms on other datasets, copy your data to the folder 'bci_data'. 
+
+Use the same format as the files in the folder.
 
 add a file with the name 'yourDatasetName_spec' to the folder 'bci_framework/BCI_Framework'. Files 'BCICIII3b_spec', 'BCICIV2a_spec' , ... as examples.
 
