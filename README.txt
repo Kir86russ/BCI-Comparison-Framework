@@ -58,11 +58,14 @@ _____________________
 
 To run the algorithms on other datasets, copy your data to the folder 'bci_data'. 
 
-Use the same format as the files in the folder.
+Use the same format as the files in the folder. Create a folder with the name your_dataset_name. Create two folder 'TrainData' and 
+'TestData' in that folder. Add a file with the name 'yourDatasetName_spec' to the folder 'bci_framework/BCI_Framework'. Files 'BCICIII3b_spec', 'BCICIV2a_spec' , ... as examples.
 
-add a file with the name 'yourDatasetName_spec' to the folder 'bci_framework/BCI_Framework'. Files 'BCICIII3b_spec', 'BCICIV2a_spec' , ... as examples.
+Format of the data:
+Each row in subject_X.txt is a feature vector and each row in subject_Y.txt is its corresponding label.
 
-Format of the data
+Copy the training files in TrainData folder and test files in TestData folder.
+
 
 Extending the software
 ______________________
