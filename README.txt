@@ -19,6 +19,7 @@ Python 2.7
 * Scikit-learn
 * Theano
 * Matplotlib
+* spectrum
 
 This software has been tested on linux and Windows.
 
