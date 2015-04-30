@@ -16,7 +16,7 @@ Python 2.7
 
 * Numpy
 * Scipy
-* Scikit-learn
+* Scikit-learn 0.15
 * Theano
 * Matplotlib
 * spectrum
